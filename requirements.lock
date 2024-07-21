@@ -10,7 +10,7 @@
 #   universal: false
 
 -e file:.
-aiotraq==0.2.3
+aiotraq==0.2.4
     # via aiotraq-message
 aiotraq-bot==0.2.4
     # via aiotraq-message

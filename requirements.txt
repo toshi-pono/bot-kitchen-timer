@@ -9,10 +9,11 @@
 #   generate-hashes: false
 #   universal: false
 
-aiotraq==0.2.3
+aiotraq==0.2.4
     # via aiotraq-message
-aiotraq-bot==0.2.3
+aiotraq-bot==0.2.4
     # via aiotraq-message
+    # via bot-kitchin-timer
 aiotraq-message==0.2.4
     # via bot-kitchin-timer
 annotated-types==0.7.0
