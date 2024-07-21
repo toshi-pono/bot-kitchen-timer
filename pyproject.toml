@@ -1,0 +1,28 @@
+[project]
+name = "bot-kitchin-timer"
+version = "0.1.0"
+description = "キッチンタイマーBOT for traQ"
+authors = [
+    { name = "toshi-pono", email = "66683209+toshi-pono@users.noreply.github.com" },
+]
+dependencies = [
+    "python-dotenv>=1.0.1",
+    "aiotraq-message>=0.2.4",
+    "aiotraq-bot>=0.2.4",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kitchen_timer"]
